@@ -1,6 +1,7 @@
 let cities = ["New York","Kansas","St Louis","Chicago","Ballwin"];
 for (let index = 0; index < cities.length; index++) {
-    console.log(cities[index].toUpperCase());    
+    let UpperCaseCity = cities[index].toUpperCase();
+    console.log(UpperCaseCity);    
 }
 
 /* // OUTPUT
@@ -12,8 +13,8 @@ BALLWIN
 */
 
 let numbers = [1,2,3,4,5];
-let squares = numbers.map(num => num * num);
-console.log(squares);
+let squarenumberss = numbers.map(num => num * num);
+console.log(squarenumberss);
 /* // OUTPUT
 [ 1, 4, 9, 16, 25 ]
 */
